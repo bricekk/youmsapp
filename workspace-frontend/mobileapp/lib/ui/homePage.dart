@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:youmspay/widgets/customAppBar.dart';
+import 'package:youmspay/widgets/customBottomAppBar.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -18,15 +19,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar(),
-      body: SingleChildScrollView(
-        child: Container(
-          child: Column(
-            children: [
-
-            ],
-          ),
-        ),
-      ),
+      bottomNavigationBar: CustomBottomAppBar(),
+      body:  Container(),
     );
   }
 }

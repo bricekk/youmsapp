@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:youmspay/ui/homePage.dart';
-import 'package:youmspay/utils/themeService.dart';
-import 'package:youmspay/utils/themedef.dart';
+import 'package:youmspay/services/themeService.dart';
+import 'package:youmspay/utils/themeDef.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 
